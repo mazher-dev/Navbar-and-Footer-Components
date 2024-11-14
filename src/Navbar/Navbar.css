@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    width: 100%;
+    background-color: #ffffff;
+    color: rgb(61, 61, 61);
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 40px;
+}
+
+.navbar img {
+    width: 170px;
+    height: auto;
+}
+
+.navbar-list {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar-list li {
+    cursor: pointer;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.navbar-list li:hover {
+    color: #5063F0;
+}
+
+.navbar-button {
+    padding: 8px 16px;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #5063F0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+}
+
+.navbar-button:hover {
+    background-color: #3f50d1;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 300px;
+    height: 100%;
+    background-color: #ffffff9f;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transform: translateX(100%);
+    transition: transform 0.3s ease-in-out;
+    z-index: 999;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    backdrop-filter: blur(10px);
+}
+
+.sidebar.active {
+    transform: translateX(0);
+}
+
+.close-icon {
+    align-self: flex-end;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.sidebar li {
+    width: 100%;
+    padding: 10px 10px;
+    color: rgb(0, 0, 0);
+}
+
+.sidebar-login-button {
+    padding: 8px 16px;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #5063F0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+.sidebar-login-button:hover {
+    background-color: #3f50d1;
+}
+
+.navbar-button-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.hamburger-icon {
+    
+    cursor: pointer;
+}
+
+    @media (max-width: 768px) {
+        .navbar {
+            padding: 10px 20px;
+        }
+
+        .navbar img {
+            width: 130px; /* Adjust logo size for smaller screens */
+        }
+
+        .navbar-list,
+        .navbar-button {
+            display: none;
+        }
+
+        .hamburger-icon {
+            display: block;
+        }
+    }
