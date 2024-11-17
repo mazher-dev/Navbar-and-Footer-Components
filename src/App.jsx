@@ -28,7 +28,6 @@ const App = () => {
       <Navbar3 />
       <Navbar4 />
       <Navbar5 />
-      
       <Footer />
       <Footer2 />
       <Footer3 />
