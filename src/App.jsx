@@ -11,13 +11,6 @@ import Footer4 from './Footer4/Footer4';
 import Footer5 from './Footer5/Footer5';
 import Navbar4 from './Navbar4/Navbar4';
 import Navbar5 from './Navbar5/Navbar5';
-import Navbar6 from './Navbar6/Navbar6';
-
-
-
-
-
-
 
 const App = () => {
   return (
