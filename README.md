@@ -3,8 +3,6 @@
 A repository containing the Navbar and Footer components for seamless integration into websites. These components are designed for easy customization and responsiveness.
 
 
-Check out the live site here: (https://navbar-components.netlify.app/)
-
 ## Features
 
 - **Responsive Design**: Navbar and footer adapt to different screen sizes for optimal user experience.
