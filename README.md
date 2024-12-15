@@ -1,4 +1,4 @@
-# Navbar and Footer Components
+# UIHive Navbar and Footer Components
 
 A repository containing the Navbar and Footer components for seamless integration into websites. These components are designed for easy customization and responsiveness.
 
